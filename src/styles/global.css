@@ -1,0 +1,83 @@
+clbody {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: yellow;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.brand {
+    font-size: 32px;
+    margin: 0;
+    color: black;
+    text-shadow: 2px 2px 0px white, -2px -2px 0px white, 2px -2px 0px white, -2px 2px 0px white;
+}
+
+.categoriesContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.categories {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.category-item {
+    cursor: pointer;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 600; 
+}
+
+.category-item:hover {
+    background-color: #f0e68c; 
+}
+
+.cart-widget {
+    position: relative;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.cart-icon-container {
+    position: relative;
+}
+
+.cart-icon {
+    font-size: 24px;
+}
+
+.cart-bubble {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.item-list-container {
+    padding: 20px;
+    text-align: center;
+}
+
